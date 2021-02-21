@@ -299,7 +299,7 @@ const tick = () => {
     anime.running.length = 0;
     anime({
       targets: bird2.bird.rotation,
-      y: 0.5,
+      y: 0.3,
       duration: 300,
       delay: 100,
       easing: "cubicBezier(0,.03,.61,.99)"
